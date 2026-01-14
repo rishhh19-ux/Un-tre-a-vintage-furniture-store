@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cozy Nest Furniture</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background-color: #fff6f8;
+            color: #5a4a4a;
+        }
+
+        header {
+            background-color: #ffd6e0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+        }
+
+        .container {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+        }
+
+        .price {
+            color: #ff7aa2;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #ffd6e0;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        button {
+            background-color: #ff7aa2;
+            border: none;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #ff5f8f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🪑 Cozy Nest Furniture</h1>
+    <p>Cute, comfy furniture for happy homes</p>
+</header>
+
+<section class="container">
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Cute+Chair" alt="Cute Chair">
+        <h3>Pink Cozy Chair</h3>
+        <p class="price">$120</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Soft+Sofa" alt="Soft Sofa">
+        <h3>Cloudy Sofa</h3>
+        <p class="price">$450</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Wood+Table" alt="Table">
+        <h3>Sweet Wood Table</h3>
+        <p class="price">$230</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Lamp" alt="Lamp">
+        <h3>Warm Night Lamp</h3>
+        <p class="price">$60</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Cozy Nest Furniture · Made with 💕</p>
+</footer>
+
+</body>
+</html>
